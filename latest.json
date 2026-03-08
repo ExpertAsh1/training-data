@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-08T21:57:26.989911",
+    "last_updated": "2026-03-08T22:26:50.532781",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.77"
@@ -392,7 +392,7 @@
     "p_max": 1209,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-08T21:57:26.989307",
+    "calculation_timestamp": "2026-03-08T22:26:50.532216",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -551,7 +551,7 @@
       "id": "i130013025",
       "date": "2026-03-06T17:49:50",
       "type": "VirtualRow",
-      "name": "Indoor Rowing",
+      "name": "Padel warm-up row",
       "duration_hours": 0.1,
       "distance_km": 1.28,
       "tss": 3,

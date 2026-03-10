@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-10T15:35:44.324449",
+    "last_updated": "2026-03-10T16:38:34.417600",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.77"
@@ -346,7 +346,7 @@
           "planned_tss_delta": 1.36,
           "hard_sessions_planned": 3,
           "race_proximity": null,
-          "next_week_load": 1.51,
+          "next_week_load": 1.52,
           "plan_coverage_current_week": 1.8,
           "plan_coverage_next_week": 2.0
         },
@@ -381,7 +381,7 @@
     "p_max": 1209,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-10T15:35:44.323860",
+    "calculation_timestamp": "2026-03-10T16:38:34.416976",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -421,7 +421,7 @@
       "carbs_used": 184,
       "carbs_ingested": null,
       "variability_index": 1.2139304,
-      "decoupling": 12.209339,
+      "decoupling": 6.134098,
       "efficiency_factor": 1.5741936,
       "hrrc": 21,
       "elevation_m": 42.0,
@@ -1129,11 +1129,11 @@
       "date": "2026-03-17",
       "name": "VO2 Max | 5x4min",
       "type": "WORKOUT",
-      "planned_tss": 76,
+      "planned_tss": 80,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
-      "workout_summary": "2 \u00d7 5m | 5\u00d74m / 4m rec | 10m",
-      "description": "Warmup\n- 5m Z1\n- 5m Z2\n\nMain set 5x\n- 4m Z5\n- 4m Z1\n\nCooldown\n- 10m Z2"
+      "workout_summary": "10m | 5\u00d74m @334W / 4m rec | 10m",
+      "description": "Warmup\n- 10m ramp Z1-Z2\n\nMain set 5x\n- 4m 110-120%\n- 4m Z1\n\nCooldown\n- 10m Z2"
     },
     {
       "id": 96329683,
@@ -1233,14 +1233,14 @@
       "description_preview": "-85m Z2 HR"
     },
     {
-      "id": 96330218,
+      "id": 97689054,
       "date": "2026-03-24",
-      "name": "VO2 Max | 5x5min",
+      "name": "VO2 Max | 4x5min",
       "type": "WORKOUT",
-      "planned_tss": 92,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
-      "workout_summary": "2 \u00d7 5m | 5\u00d75m / 5m rec | 10m"
+      "planned_tss": 80,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "10m | 4\u00d75m @334W / 5m rec | 10m"
     },
     {
       "id": 96330022,
@@ -1340,14 +1340,14 @@
       "description_preview": "- 60m Z2 HR"
     },
     {
-      "id": 96331357,
+      "id": 97689057,
       "date": "2026-03-31",
-      "name": "VO2 Max | 3 x 4min",
+      "name": "VO2 Max | 3x4min",
       "type": "WORKOUT",
-      "planned_tss": 52,
+      "planned_tss": 54,
       "duration_hours": 0.73,
       "duration_formatted": "44m",
-      "workout_summary": "2 \u00d7 5m | 3\u00d74m / 4m rec | 10m"
+      "workout_summary": "10m | 3\u00d74m @334W / 4m rec | 10m"
     },
     {
       "id": 96331409,

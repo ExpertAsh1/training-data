@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-12T09:28:06.564801",
+    "last_updated": "2026-03-12T10:07:59.579009",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.77"
@@ -331,7 +331,7 @@
           "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": 1.52,
-          "plan_coverage_current_week": 1.2,
+          "plan_coverage_current_week": 1.4,
           "plan_coverage_next_week": 2.0
         },
         "data_quality": "good",
@@ -365,7 +365,7 @@
     "p_max": 1209,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-12T09:28:06.564229",
+    "calculation_timestamp": "2026-03-12T10:07:59.578444",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -841,27 +841,16 @@
       "sleep_quality": 1,
       "sleep_score": 94.0,
       "mental_energy": null,
-      "fatigue": 1,
-      "soreness": 1,
+      "fatigue": null,
+      "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
     }
   ],
   "planned_workouts": [
     {
-      "id": 96329204,
-      "date": "2026-03-12",
-      "name": "Sweet Spot 2x20m",
-      "type": "WORKOUT",
-      "planned_tss": 77,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
-      "workout_summary": "2 \u00d7 5m | 2\u00d720m / 5m rec | 10m",
-      "description": "Warmup\n- 5m Z1\n- 5m Z2\n\nIntervals 2x\n- 20m SS\n- 5m Z1\n\nCooldown\n- 10m Z2"
-    },
-    {
       "id": 96328817,
-      "date": "2026-03-13",
+      "date": "2026-03-12",
       "name": "Tempo | 3x8min",
       "type": "WORKOUT",
       "planned_tss": 25,
@@ -869,6 +858,28 @@
       "duration_formatted": "50m",
       "workout_summary": "10m | 3\u00d78m / 2m rec | 10m",
       "description": "Warmup\n- 10m Z2 HR\n\nMain sets 3x\n- 8m Z4 pace\n- 2m Z1 pace\n\nCooldown\n- 10m Z2 HR"
+    },
+    {
+      "id": 96335567,
+      "date": "2026-03-12",
+      "name": "Lower (Strength)",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": "Warm-up: 8\u201310 min (hips/ankles + ramp sets)\n\nSquat or squat-variant: 3\u20134\u00d75\u20136 @ RPE 7\u20138\n\nHinge (RDL / hip hinge): 3\u00d76\u20138 @ RPE 7\n\nSingle-leg (split squat / lunge): 2\u20133\u00d78\u201310 @ RPE 7\n\nHamstring/calf + core: 2\u20133 sets\n\nRule: no grinders, stop 1\u20133 reps shy of failure"
+    },
+    {
+      "id": 96329204,
+      "date": "2026-03-13",
+      "name": "Sweet Spot 2x20m",
+      "type": "WORKOUT",
+      "planned_tss": 77,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": "2 \u00d7 5m | 2\u00d720m / 5m rec | 10m",
+      "description": "Warmup\n- 5m Z1\n- 5m Z2\n\nIntervals 2x\n- 20m SS\n- 5m Z1\n\nCooldown\n- 10m Z2"
     },
     {
       "id": 96335578,
@@ -1244,7 +1255,7 @@
     "success": 10,
     "patternA": 10,
     "patternB": 0,
-    "bail_no_workout_doc": 11,
+    "bail_no_workout_doc": 12,
     "bail_no_match": 15
   },
   "weekly_summary": {

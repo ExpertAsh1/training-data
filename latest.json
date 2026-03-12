@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-12T15:08:58.315338",
+    "last_updated": "2026-03-12T16:14:30.747477",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.77"
@@ -153,18 +153,18 @@
       "sports": {
         "cycling": {
           "lthr": 176,
-          "max_hr": 200,
+          "max_hr": 201,
           "threshold_pace": null,
           "pace_units": null,
           "ftp": 290,
           "ftp_indoor": null
         },
         "run": {
-          "lthr": 183,
-          "max_hr": 210,
-          "threshold_pace": 2.8328612,
+          "lthr": 180,
+          "max_hr": 207,
+          "threshold_pace": 2.915452,
           "pace_units": "MINS_KM",
-          "ftp": 432,
+          "ftp": 429,
           "ftp_indoor": null
         },
         "swim": {
@@ -380,7 +380,7 @@
     "p_max": 1209,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 44.0,
-    "calculation_timestamp": "2026-03-12T15:08:58.314764",
+    "calculation_timestamp": "2026-03-12T16:14:30.746906",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -398,7 +398,7 @@
       "id": "i131494007",
       "date": "2026-03-12T13:10:20",
       "type": "WeightTraining",
-      "name": "Strength",
+      "name": "Upper body",
       "duration_hours": 0.76,
       "distance_km": 0.0,
       "tss": 15,
@@ -953,8 +953,8 @@
       "sleep_quality": 1,
       "sleep_score": 94.0,
       "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
+      "fatigue": 1,
+      "soreness": 1,
       "avg_sleeping_hr": null,
       "vo2max": 44.0
     }

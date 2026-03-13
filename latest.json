@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-13T22:51:26.854280",
+    "last_updated": "2026-03-13T23:24:41.075662",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.77"
@@ -329,7 +329,7 @@
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": 1.52,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 2.0
         },
         "data_quality": "good",
@@ -363,13 +363,13 @@
     "p_max": 1209,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 44.0,
-    "calculation_timestamp": "2026-03-13T22:51:26.853669",
+    "calculation_timestamp": "2026-03-13T23:24:41.075089",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 38,
-      "planned_workouts_7d": 10,
+      "planned_workouts_7d": 11,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -825,6 +825,17 @@
       "description": "Bench press (or incline): 4\u00d74\u20136 @ RPE 7\u20138\n\nRow (chest-supported / cable): 4\u00d76\u20138 @ RPE 7\u20138\n\nOverhead press: 3\u00d76\u20138\n\nPull-ups/lat pulldown: 3\u00d76\u201310\n\nArms: 2\u20133 sets each"
     },
     {
+      "id": 98323776,
+      "date": "2026-03-13",
+      "name": "Note",
+      "type": "NOTE",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description": "Extremely painful reoccurring shin splints\nCould be possible stress fracture"
+    },
+    {
       "id": 96328936,
       "date": "2026-03-14",
       "name": "Endurance | 2h30m",
@@ -1188,7 +1199,7 @@
     "success": 9,
     "patternA": 9,
     "patternB": 0,
-    "bail_no_workout_doc": 11,
+    "bail_no_workout_doc": 12,
     "bail_no_match": 15
   },
   "weekly_summary": {

@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-18T10:35:34.636124",
+    "last_updated": "2026-03-18T11:31:48.327475",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.77"
@@ -137,10 +137,10 @@
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 287.7,
-      "w_prime": 24599,
+      "eftp": 288.0,
+      "w_prime": 24624,
       "w_prime_kj": 24.6,
-      "p_max": 1206,
+      "p_max": 1208,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -302,9 +302,9 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.29,
+    "consistency_index": 0.33,
     "consistency_details": {
-      "planned_days": 7,
+      "planned_days": 6,
       "completed_days": 2,
       "matched_days": 2,
       "planned_dates": [
@@ -313,7 +313,6 @@
         "2026-03-14",
         "2026-03-15",
         "2026-03-16",
-        "2026-03-17",
         "2026-03-18"
       ],
       "completed_dates": [
@@ -333,11 +332,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.42,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 1.79,
+          "hard_sessions_planned": 3,
           "race_proximity": null,
           "next_week_load": 1.6,
-          "plan_coverage_current_week": 1.6,
+          "plan_coverage_current_week": 1.8,
           "plan_coverage_next_week": 2.0
         },
         "data_quality": "good",
@@ -365,13 +364,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 287.7,
-    "w_prime": 24599,
+    "eftp": 288.0,
+    "w_prime": 24624,
     "w_prime_kj": 24.6,
-    "p_max": 1206,
+    "p_max": 1208,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-18T10:35:34.635541",
+    "calculation_timestamp": "2026-03-18T11:31:48.326923",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -802,6 +801,17 @@
   ],
   "planned_workouts": [
     {
+      "id": 96329679,
+      "date": "2026-03-18",
+      "name": "VO2 Max | 5x4min",
+      "type": "WORKOUT",
+      "planned_tss": 80,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "10m | 5\u00d74m @334W / 4m rec | 10m",
+      "description": "Warmup\n- 10m ramp Z1-Z2\n\nMain set 5x\n- 4m 110-120%\n- 4m Z1\n\nCooldown\n- 10m Z2"
+    },
+    {
       "id": 96329683,
       "date": "2026-03-18",
       "name": "Endurance | 60min",
@@ -1107,9 +1117,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 19,
-    "success": 7,
-    "patternA": 7,
+    "attempted": 20,
+    "success": 8,
+    "patternA": 8,
     "patternB": 0,
     "bail_no_workout_doc": 9,
     "bail_no_match": 12

@@ -15,7 +15,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-23T22:00:35.597267",
+    "last_updated": "2026-04-23T23:06:07.796408",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.77"
@@ -146,8 +146,8 @@
       "vo2max": null,
       "sports": {
         "cycling": {
-          "lthr": 176,
-          "max_hr": 201,
+          "lthr": 175,
+          "max_hr": 203,
           "threshold_pace": null,
           "pace_units": null,
           "ftp": 290,
@@ -155,7 +155,7 @@
         },
         "run": {
           "lthr": 178,
-          "max_hr": 207,
+          "max_hr": 205,
           "threshold_pace": 2.915452,
           "pace_units": "MINS_KM",
           "ftp": 429,
@@ -371,7 +371,7 @@
     "p_max": 1165,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-23T22:00:35.596687",
+    "calculation_timestamp": "2026-04-23T23:06:07.795835",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -732,8 +732,8 @@
       "sleep_quality": 2,
       "sleep_score": 81.0,
       "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
+      "fatigue": 2,
+      "soreness": 1,
       "avg_sleeping_hr": null,
       "vo2max": null
     }

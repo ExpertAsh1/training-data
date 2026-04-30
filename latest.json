@@ -15,12 +15,21 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-30T06:40:53.975918",
+    "last_updated": "2026-04-30T09:02:27.343063",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.77"
   },
   "alerts": [
+    {
+      "metric": "hrv",
+      "value": 40.0,
+      "severity": "warning",
+      "threshold": "\u2193>20% vs baseline (50.1)",
+      "context": "HRV 40.0 is 20.2% below baseline. Monitor \u2014 alarm if persists >2 days.",
+      "persistence_days": 1,
+      "tier": 1
+    },
     {
       "metric": "acwr",
       "value": 1.71,
@@ -36,21 +45,21 @@
     "priority": 1,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 51.8,
-        "delta_pct": null
+        "status": "red",
+        "value": 40.0,
+        "baseline_7d": 50.1,
+        "delta_pct": -20.2
       },
       "rhr": {
-        "status": "amber",
-        "value": 58,
-        "baseline_7d": 54.3,
-        "delta_bpm": 3.7
+        "status": "green",
+        "value": 57,
+        "baseline_7d": 54.1,
+        "delta_bpm": 2.9
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "amber",
+        "hours": 8.05,
+        "quality": 3
       },
       "acwr": {
         "status": "red",
@@ -61,15 +70,15 @@
         "value": 5
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "amber",
+        "value": 0.76
       }
     },
     "signal_summary": {
-      "green": 0,
-      "amber": 1,
-      "red": 2,
-      "unavailable": 3
+      "green": 1,
+      "amber": 2,
+      "red": 3,
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Base",
@@ -166,21 +175,21 @@
     },
     "current_metrics": {
       "weight_kg": 104.0,
-      "resting_hr": 58,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null
+      "resting_hr": 57,
+      "hrv": 40.0,
+      "sleep_quality": 3,
+      "sleep_hours": 8.05,
+      "sleep_formatted": "8h2m"
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 51.8,
-    "rhr_baseline_7d": 54.3,
-    "hrv_baseline_28d": 47.2,
+    "recovery_index": 0.76,
+    "hrv_baseline_7d": 50.1,
+    "rhr_baseline_7d": 54.1,
+    "hrv_baseline_28d": 46.9,
     "rhr_baseline_28d": 53.6,
-    "latest_hrv": null,
-    "latest_rhr": 58,
+    "latest_hrv": 40.0,
+    "latest_rhr": 57,
     "acwr": 1.71,
     "acwr_interpretation": "danger",
     "monotony": 0.54,
@@ -192,7 +201,7 @@
     "multi_sport_detected": true,
     "strain": 83.0,
     "stress_tolerance": 1.5,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 2.0,
     "tss_7d_total": 154.0,
     "tss_28d_total": 360.0,
     "zone_distribution_7d": {
@@ -351,9 +360,9 @@
     "p_max": 1157,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-30T06:40:53.975368",
+    "calculation_timestamp": "2026-04-30T09:02:27.342515",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 12,
@@ -695,13 +704,13 @@
     {
       "date": "2026-04-30",
       "weight_kg": null,
-      "resting_hr": 58,
-      "hrv_rmssd": null,
+      "resting_hr": 57,
+      "hrv_rmssd": 40.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 8.05,
+      "sleep_formatted": "8h2m",
+      "sleep_quality": 3,
+      "sleep_score": 78.0,
       "mental_energy": null,
       "fatigue": null,
       "soreness": null,
@@ -833,8 +842,8 @@
     "total_training_formatted": "4h38m",
     "total_tss": 154,
     "activities_count": 5,
-    "avg_hrv": 51.8,
-    "avg_resting_hr": 54.3
+    "avg_hrv": 50.1,
+    "avg_resting_hr": 54.1
   },
   "race_calendar": {
     "next_race": null,
